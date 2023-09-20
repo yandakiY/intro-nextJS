@@ -8,7 +8,7 @@ const FirstPost = () => {
   return (
     <Layout> 
         <Head>
-            <title>First Post</title>
+            <title className='text-lg'>First Post</title>
         </Head>
         <Script
             src='https://connect.facebook.net/en_US/sdk.js'
